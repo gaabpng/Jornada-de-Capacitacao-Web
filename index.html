@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+</head>
+
+<body>
+    <nav>
+        <a href="#">Sobre mim</a>
+        <a href="pages/skills.html">Habilidades</a>
+        <a href="pages/talk.html">Fale comigo</a>
+    </nav>
+    <div class="container">
+        <div class="borda-gradiente">
+            <img src="img/IMG_20230612_151256_093.jpg" alt="Foto de Gabriel Sales" class="foto-circular">
+        </div>
+    </div>
+    <h1 class="nome">Gabriel Sales</h1>
+    <p class="descricao">Estudante</p>
+
+    <h1>Sobre mim</h1>
+    <text>Olá, meu nome é Gabriel Sales. Sou membro voluntário do IEEE e meu objetivo é me capacitar em diversas
+        áreas da computação. Atualmente, sou estudante do segundo período de Ciência da Computação na Universidade
+        Federal Fluminense. Trabalho com as tecnologias Python, HTML, CSS e C++, além de utilizar ferramentas de
+        computação em nuvem como a AWS.</text>
+
+    <h1>Habilidades</h1>
+    <img class="skills" src="img/skills/icons8-aws-64.png" alt="">
+    <img class="skills" src="img/skills/icons8-python-48.png" alt="">
+    <img class="skills" src="img/skills/icons8-html-48.png" alt="">
+    <img class="skills" src="img/skills/icons8-css-48.png" alt="">
+    <img class="skills" src="img/skills/icons8-c++-50.png" alt="">
+
+    <h1>Fale comigo</h1>
+
+    <form action="">
+        <div class="form">
+            <label for="nome">Nome:</label>
+            <input class="input" type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input class="input" type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea class="mensagem" id="mensagem" name="mensagem" required></textarea>
+        </div>
+        <div class="button-container">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+    <footer>
+        <h1>Me Siga!</h1>
+        <a href="https://github.com/gaabpng">
+            <img style="width: 70px; height: 70px;" class="github" src="img/skills/icons8-github-30.png">
+        </a>
+    </footer>
+
+</body>
+
+</html>
